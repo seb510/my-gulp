@@ -1,0 +1,58 @@
+$base64-png: "image/png;base64";
+$base64-jpg: "image/jpeg;base64";
+$base64-svg: "image/svg+xml;base64";
+
+// font var
+//-----------------------------------------------------------------------------------
+$default-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+@include font-face("Gilroy-Black", "../fonts/Gilroy-Black/Gilroy-Black", "Gilroy-Black", normal);
+@include font-face("Gilroy-BlackItalic", "../fonts/Gilroy-BlackItalic/Gilroy-BlackItalic", "Gilroy-BlackItalic", normal);
+$GBL: "Gilroy-Black", $default-font;
+$GBLI: "Gilroy-BlackItalic", $default-font;
+
+@include font-face("Gilroy-Bold", "../fonts/Gilroy-Bold/Gilroy-Bold", "Gilroy-Bold", normal);
+@include font-face("Gilroy-BoldItalic", "../fonts/Gilroy-BoldItalic/", "Gilroy-BoldItalic", normal);
+$GB: "Gilroy-Bold", $default-font;
+$GBI: "Gilroy-BoldItalic", $default-font;
+
+@include font-face("Gilroy-ExtraBold", "../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold", "Gilroy-ExtraBold", normal);
+@include font-face("Gilroy-ExtraBoldItalic", "../fonts/Gilroy-ExtraBoldItalic/Gilroy-ExtraBoldItalic", "Gilroy-ExtraBoldItalic", normal);
+$GEB: "Gilroy-ExtraBold", $default-font;
+$GEBI: "Gilroy-ExtraBoldItalic", $default-font;
+
+@include font-face("Gilroy-Heavy", "../fonts/Gilroy-Heavy/Gilroy-Heavy", "Gilroy-Heavy", normal);
+@include font-face("Gilroy-HeavyItalic", "../fonts/Gilroy-HeavyItalic/Gilroy-HeavyItalic", "Gilroy-HeavyItalic", normal);
+$GH: "Gilroy-Heavy", $default-font;
+$GHI: "Gilroy-HeavyItalic", $default-font;
+
+@include font-face("Gilroy-Light", "../fonts/Gilroy-Light/Gilroy-Light", "Gilroy-Light", normal);
+@include font-face("Gilroy-LightItalic", "../fonts/Gilroy-LightItalic/Gilroy-LightItalic", "Gilroy-LightItalic", normal);
+$GL: "Gilroy-Light", $default-font;
+$GLI: "Gilroy-LightItalic", $default-font;
+
+@include font-face("Gilroy-Medium", "../fonts/Gilroy-Medium/Gilroy-Medium", "Gilroy-Medium", normal);
+@include font-face("Gilroy-MediumItalic", "../fonts/Gilroy-MediumItalic/Gilroy-MediumItalic", "Gilroy-MediumItalic", normal);
+$GM: "Gilroy-Medium", $default-font;
+$GMI: "Gilroy-MediumItalic", $default-font;
+
+@include font-face("Gilroy-Regular", "../fonts/Gilroy-Regular/Gilroy-Regular", "Gilroy-Regular", normal);
+@include font-face("Gilroy-RegularItalic", "../fonts/Gilroy-RegularItalic/Gilroy-RegularItalic", "Gilroy-RegularItalic", normal);
+$GR: "Gilroy-Regular", $default-font;
+$GRI: "Gilroy-RegularItalic", $default-font;
+
+@include font-face("Gilroy-SemiBold", "../fonts/Gilroy-SemiBold/Gilroy-SemiBold", "Gilroy-SemiBold", normal);
+@include font-face("Gilroy-SemiBoldItalic", "../fonts/Gilroy-SemiBoldItalic/Gilroy-SemiBoldItalic", "Gilroy-SemiBoldItalic", normal);
+$GSB: "Gilroy-SemiBold", $default-font;
+$GSBI: "Gilroy-SemiBoldItalic", $default-font;
+
+@include font-face("Gilroy-Thin", "../fonts/Gilroy-Thin/Gilroy-Thin", "Gilroy-Thin", normal);
+@include font-face("Gilroy-ThinItalic", "../fonts/Gilroy-ThinItalic/Gilroy-ThinItalic", "Gilroy-ThinItalic", normal);
+$GT: "Gilroy-Thin", $default-font;
+$GTI: "Gilroy-ThinItalic", $default-font;
+
+@include font-face("Gilroy-UltraLight", "../fonts/Gilroy-UltraLight/Gilroy-UltraLight", "Gilroy-UltraLight", normal);
+@include font-face("Gilroy-UltraLightItalic", "../fonts/Gilroy-UltraLightItalic/", "Gilroy-UltraLightItalic", normal);
+$GUL: "Gilroy-UltraLight", $default-font;
+$GULI: "Gilroy-UltraLightItalic", $default-font;
+

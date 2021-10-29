@@ -1,0 +1,17 @@
+// import standards
+//-----------------------------------------------------------------------------------
+@import "standards/mixins.scss";
+@import "standards/variables.scss";
+@import "standards/reset.scss";
+@import "standards/structure.scss";
+
+// import components
+//-----------------------------------------------------------------------------------
+@import "components/elements.scss";
+@import "components/header.scss";
+@import "components/footer.scss";
+@import "components/plugin.scss";
+
+// import pages
+//-----------------------------------------------------------------------------------
+@import "pages/index.scss";
