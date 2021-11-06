@@ -2,6 +2,7 @@
 /node_modules/**
 .idea/**
 .sass-cache/**
+package-lock.json
 
 # OS Files
 .DS_Store
