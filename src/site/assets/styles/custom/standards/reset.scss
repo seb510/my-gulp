@@ -3,7 +3,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -19,8 +19,8 @@ ol,
 ul,
 li,
 button {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -29,33 +29,33 @@ button {
 ol,
 ul,
 li {
-  list-style: none;
+    list-style: none;
 }
 
 
 /* Set core root defaults */
 
 html:focus-within {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 
 /* Set core body defaults */
 
 body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  overflow-x: hidden;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    overflow-x: hidden;
 }
 
 
 /* A elements that don't have a class get default styles */
 
 a {
-  text-decoration: none;
-  color: inherit;
-  outline: none;
-  transition: .3s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    transition: .3s ease-in-out;
 }
 
 
@@ -63,8 +63,8 @@ a {
 
 img,
 picture {
-  max-width: 100%;
-  display: block;
+    max-width: 100%;
+    display: block;
 }
 
 
@@ -74,38 +74,37 @@ input,
 button,
 textarea,
 select {
-  font: inherit;
-  resize: none;
+    font: inherit;
+    resize: none;
 }
 
 button {
-  outline: none;
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
 }
 
 input,
 textarea,
 select {
-  outline: none;
-  border: none;
-  cursor: pointer;
+    outline: none;
+    border: none;
 }
 
 
 /* Remove all animations and transitions for people that prefer not to see them */
 
 @media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-    scroll-behavior: auto;
-  }
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }
